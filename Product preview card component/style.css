@@ -114,26 +114,52 @@ body {
 }
 
 .perfume-box {
-  margin-bottom: .6rem;
+  margin-bottom: 0.6rem;
 }
 
-@media (min-width: 50em) {
+@media (min-width: 55em) {
   .perfume-box {
     display: flex;
     justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
   }
+
 }
 
-.perfume-img {
-  width: 100%;
+.perfume-img-mobile {
   margin-top: 1.5rem;
   border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.perfume-img-desktop {
+  display: none;
+}
+
+@media (min-width: 55em) {
+  .perfume-img-mobile {
+    display: none;
+  }
+
+  .perfume-img-desktop {
+    display: block;
+  }
 }
 
 .perfume-content {
   background-color: var(--clr-neutral-900);
   padding: 1.5rem;
   border-radius: 0 0 0.5rem 0.5rem;
+}
+
+@media (min-width: 55em) {
+  .perfume-content{
+    flex: 1;
+  }
 }
 
 .perfume-content div:nth-child(1) {
