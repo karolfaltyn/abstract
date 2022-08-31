@@ -19,13 +19,12 @@
   --fw-regular: 500;
   --fw-bold: 700;
 
-  --fs-300: 0.75rem; /* 16px - small things date, button etc. */
+  --fs-300: 0.75rem; /* 12px - small things etc. */
   --fs-400: 0.875rem; /* 14px - p */
   --fs-800: 2rem; /* 32px - h1 */
 
-  --fs-button: var(--fs-300);
+  --fs-small-text: var(--fs-300);
   --fs-body: var(--fs-400);
-  --fs-blockquote: var(--fs-500);
   --fs-primary-heading: var(--fs-800);
 
   --max-width: 612px;
@@ -35,7 +34,7 @@
 /* min-width: 800px */
 @media (min-width: 50em) {
   :root {
-    --fs-800: 2rem; /* 48px - h1 */
+    --max-with: 418px;
   }
 }
 
@@ -117,55 +116,25 @@ body {
   margin-bottom: 0.6rem;
 }
 
-@media (min-width: 55em) {
-  .perfume-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 0;
-  }
-
-}
-
 .perfume-img-mobile {
   margin-top: 1.5rem;
-  border-radius: 0.5rem 0.5rem 0 0;
+  border-radius: 1rem 1rem 0 0;
 }
 
 .perfume-img-desktop {
   display: none;
 }
 
-@media (min-width: 55em) {
-  .perfume-img-mobile {
-    display: none;
-  }
-
-  .perfume-img-desktop {
-    display: block;
-  }
-}
-
 .perfume-content {
   background-color: var(--clr-neutral-900);
   padding: 1.5rem;
-  border-radius: 0 0 0.5rem 0.5rem;
-}
-
-@media (min-width: 55em) {
-  .perfume-content{
-    flex: 1;
-  }
+  border-radius: 0 0 1rem 1rem;
 }
 
 .perfume-content div:nth-child(1) {
   text-transform: uppercase;
   letter-spacing: 0.29rem;
-  font-size: 12px;
+  font-size: var(--fs-button);
   padding-block-end: 0.3rem;
 }
 
@@ -208,8 +177,39 @@ body {
   display: flex;
   justify-content: center;
   gap: 0.6rem;
+  display: flex;
+  align-items: center;
 }
 
 .perfume-content button:hover {
   background-color: var(--clr-primary-500);
+}
+
+/* desktop version */
+
+@media (min-width: 50em) {
+  .perfume-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .perfume-img-mobile {
+    display: none;
+  }
+
+  .perfume-img-desktop {
+    display: block;
+    height: 550px;
+    border-radius: 1rem 0 0 1rem;
+  }
+
+  .perfume-content {
+    border-radius: 0 1rem 1rem 0;
+    min-height: 550px;
+  }
 }
