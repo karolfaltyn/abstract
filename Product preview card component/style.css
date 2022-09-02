@@ -177,9 +177,8 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
-  gap: 0.6rem;
-  display: flex;
   align-items: center;
+  gap: 0.6rem;
 }
 
 .perfume-content button:hover {
