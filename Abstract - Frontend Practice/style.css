@@ -352,3 +352,9 @@ main {
 .nav-content a:hover {
   color: var(--clr-secondary-400);
 }
+
+main img {
+  height: 5rem;
+  width: 5rem;
+  margin: 0.5rem;
+}
