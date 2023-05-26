@@ -1,6 +1,6 @@
 # Frontend Practice - Abstract web page
 
-![Design preview - Abstract web page coding challenge](Abstract-reference-image.png)
+![Design preview - Abstract web page coding challenge](abstract-reference-image.png)
 
 ## Become a better frontend developer. Take your frontend skills to the next level by recreating real websites from real companies.
 
