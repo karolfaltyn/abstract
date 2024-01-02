@@ -1,13 +1,10 @@
-# Frontend Practice - Abstract web page
+# Frontend Practice- Abstract
 
 ![Design preview - Abstract web page coding challenge](abstract-reference-image.png)
 
-## Become a better frontend developer. Take your frontend skills to the next level by recreating real websites from real companies.
 
-[Frontend Practice](https://www.frontendpractice.com/)
+Here is my code for Frontend Practise web challenge.
 
-## The challenge
+## Info
 
-Your challenge is to build out this product preview card component and get it looking as close to the design as possible.
-
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+I like to make my project fully responsive by using @media query and relative units. Inside CSS file I used custom properties to easier future modification, CSS Reset code to remove default settings of selectors properties and I also used some pseudo-class.
