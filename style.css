@@ -346,6 +346,12 @@ main {
   .nav-content:nth-child(5) {
     align-self: center;
   }
+
+  .nav-logo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
 }
 
 .nav-content a {
