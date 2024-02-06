@@ -1,6 +1,4 @@
 :root {
-  /* Custom properties (variables) */
-
   --clr-secondary-200: hsl(232, 62%, 40%);
   --clr-secondary-300: hsl(232, 62%, 50%);
   --clr-secondary-400: hsl(232, 62%, 57%); /* use in 30%  or 15% each */
