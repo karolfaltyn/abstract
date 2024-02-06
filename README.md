@@ -8,7 +8,7 @@ Build a single-page website using HTML and CSS. The goal is to enhance your HTML
 
 ## Getting Started
 
-To view the website online visit [https://karolfaltyn.github.io/abstract](https://karolfaltyn.github.io/abstract/).
+To view the website online, visit [https://karolfaltyn.github.io/abstract](https://karolfaltyn.github.io/abstract/).
 
 To run the project locally, follow these steps:
 
@@ -38,4 +38,4 @@ cd abstract
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
