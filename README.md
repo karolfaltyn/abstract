@@ -14,19 +14,15 @@ To run the project locally, follow these steps:
 
 1. Clone the repository:
 
-```bash
-
-git clone https://github.com/karolfaltyn/abstract.git
-
-```
+   ```bash
+   git clone https://github.com/karolfaltyn/abstract.git
+   ```
 
 2. Navigate to the project directory:
 
-```bash
-
-cd abstract
-
-```
+   ```bash
+   cd abstract
+   ```
 
 3. Open the `index.html` file in your browser.
 
